@@ -26,6 +26,7 @@ module.exports = {
     '@typescript-eslint/no-misused-promises': [
       'error',
       { checksConditionals: true, checksVoidReturn: false, checksSpreads: true }
-    ]
+    ],
+    '@typescript-eslint/consistent-type-definitions': ['error', 'type']
   }
 }
